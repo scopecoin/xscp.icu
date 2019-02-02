@@ -359,7 +359,7 @@ span.post-name a,span.post-read-more a:hover {
 }
 .wrapintro {
     background: #fff;
-    width: 700px;
+    width: 800px;
     padding: 3rem;
     max-width: 90%;
     margin: 0px auto;
@@ -591,6 +591,54 @@ a.btn {color:#fff;}
 	font-weight:600;
 	text-transform:uppercase;
 }
+
+.btn.download {
+	background-color:#192a33;
+	border-color:#192a33;
+	color:rgba(255,255,255,1);
+	fill:rgba(255,255,255,1);
+	border-radius:30px;
+	font-size:0.85rem;
+	margin-left:10px;
+	font-weight:600;
+	text-transform:uppercase;
+}
+
+.btn.download2 {
+	/* background-color:#192a33; */
+	color:#192a33;
+	/* color:rgba(255,255,255,1);
+	fill:rgba(255,255,255,1); */
+	border-radius:30px;
+	font-size:0.85rem;
+	margin-left:10px;
+	font-weight:600;
+	text-transform:uppercase;
+}
+
+.btn.install {
+    background-color: rgb(88, 88, 255);
+	color:white;
+	fill: white;
+	border-radius:30px;
+	font-size:0.85rem;
+	margin-left:10px;
+	font-weight:600;
+	text-transform:uppercase;
+}
+
+.btn.exchange {
+    background-color:tomato;
+	border-color:tomato;
+	color:white;
+	fill:white;
+	border-radius:30px;
+	font-size:0.85rem;
+	margin-left:10px;
+	font-weight:600;
+	text-transform:uppercase;
+}
+
 .post-top-meta .btn.follow {
 	margin-left:5px;
 	margin-top:-4px;
@@ -855,4 +903,8 @@ iframe {
     .beforefooter .footersocial { text-align: center !important;    margin-top: 1rem; }    
     .form-group .col-md-6:first-child {   margin-bottom: 1rem;}
     
+}
+.wrapintro {
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, .5);
+    background: rgba(255, 255, 255, .95);
 }

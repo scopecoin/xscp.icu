@@ -1,18 +1,25 @@
 # Site
-name: Affiliates Theme for Jekyll
-description: Jekyll Theme for Blogging
-meta_description: "Jekyll theme for blogging."
+name: ScopeCoin Project
+description: Any content blockchain based reward platform
+meta_description: "Any content blockchain based reward platform."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 12
 baseurl: 
-email: 'wowthemesnet@gmail.com'
-google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
-sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
+email: 'devel@xscp.icu'
+google_analytics: 'UA-132005319-1'
+disqus: false # 'demowebsite'
+sharethis: false #'<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
 
 # Authors
 authors:
+  xscp:
+    name: XSCP
+    display_name: XSCP
+    gravatar: f87074e3b85fab1b045008319e30f28f
+    web: https://xscp.icu
+    twitter: https://twitter.com/xscpcoin
+    description: "Any content reward blockchain platform"
   sal:
     name: Sal
     display_name: Sal
