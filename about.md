@@ -1,102 +1,65 @@
 ---
 layout: page
-title: About
-comments: true
+title: XSC Project
+comments: false
 ---
 
-This website is built with Jekyll and "Affiliates" (a Jekyll Template designed & developed by WowThemes.net). It is meant for demonstration purposes, so you can have an idea of how this theme looks in action so no real content can be found. Affiliates template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github. This page in example shows a page layout.
+Scope is a coin project to bring Authors reward function to any website. We developed Web Browser extension to place Reward Widget on any website where you can post plain text, add signature or add some kind of description to any type of content. Reward Widget allows anybody who has active Extension and Wallet running locally to reward anybody who shared a XSCP signature easely. Extension connects to Wallet through RPC API calls and making payments on demand. Users w/o active extension continue seeing raw XSCP signature.
+Moreover rewards count and amount can be used as content popularity indicator. Read more at Reward Extension section.
 
 **License & Download**
 
-"Affiliates" for Jekyll is designed and developed by WowThemes.net and it is *free* for personal use.
+Scope Coin Wallet built for most major platforms
 
-<a href="https://gum.co/affiliates-jekyll-template" target="_blank">Download - Affiliates Jekyll Theme</a>
+<a href="https://dist.xscp.icu" target="_blank">Download - Scope Coin Wallet</a>
 
-![jekyll template mediumish]({{site.baseurl}}/assets/images/theme1.jpg)
+**More info**
 
-![jekyll template mediumish]({{site.baseurl}}/assets/images/theme2.jpg)
+Find more info in our official Announce Topic
 
-![jekyll template mediumish]({{site.baseurl}}/assets/images/theme3.jpg)
+<a href="https://bitcointalk.org/index.php?topic=5096250.0" target="_blank">Scope  Coin Official Announce</a> at BitcoinTalk
 
-![jekyll template mediumish]({{site.baseurl}}/assets/images/theme4.jpg)
+#### Extension in Action
+
+![Extension in Action]({{site.baseurl}}/assets/images/screenshot.png)
 
 #### Features
 
-- Built for Jekyll
-- Compatible with Github pages
-- Featured Posts
-- Index Pagination
-- Post Categories
-- Prev/Next Link
-- Category Archives (this is not yet compatible with github pages though)
-- Integrations:
-    - Disqus Comments
-    - Google Analaytics
-    - Mailchimp Integration
-    - Sharethis Integration
-    - Formspree.io Contact
-- Design Features:
-    - Bootstrap v4.0.0-alpha.6
-    - Font Awesome
-    - Masonry
-- Layouts:
-    - Default
-    - Post left sidebar
-    - Post right sidebar
-    - Page
-    - Archive
+- Built Wallet for all major OS:
+    - Windows
+    - Linux
+    - MacOS X
+- Compatible with Bitcoin RPC
+- Instant Transactions
+
     
 #### How to Use
 
-If you aren't familiar with Jekyll yet, you should know that it is a static site generator. It will transform your plain text into static websites and blogs. If you are a beginner we recommend you start with [Jekyll's Docs](https://jekyllrb.com/docs/installation/){:target="_blank"}. Now if you know how to use Jekyll, let's move on to using Affiliates template in Jekyll:
+Download Wallet. Install extension. Connection extension and Wallet.
 
-[Download](https://gum.co/affiliates-jekyll-template){:target="_blank"} or Fork *Affiliates for Jekyll*. 
-- In your local project, open <code>_config.yml</code>. If your site is in root, for <code>baseurl</code>, make sure this is set to <code>baseurl: /</code>. Also, change your Google Analytics code, Disqus username, Authors, Mailchimp, ShareThis code (https://www.sharethis.com/) etc.
-- Affiliates requires 2 plugins: 
-    - <code>$ gem install jekyll-paginate</code>
-    - <code>$ gem install jekyll-archives</code>.
-- Locate the files and customize:
-    - header & footer in <code>default.html</code>. 
-    - homepage in <code>index.html</code>
-    - contact form in <code>contact.html</code> (https://formspree.io/)
-    - post sidebar in <code>includes/sidebar.html</code>
-    - sign up form in <code>includes/newsletter.html</code>
-- Start blogging by adding your .md files in <code>_posts</code>. You will see in examples in the download.
-- YAML front matter
-    - post featured - <code>featured:true</code>
-    - post featured image - <code>image: assets/images/mypic.jpg</code>
-    - page comments - <code>comments:true</code>
-    - meta description (optional) - <code>description: "this is my meta description"</code>
-    
-YAML Post Example:
+[Download](https://dist.xscp.icu){:target="_blank"}. 
+
+In your local ScopeCoin data folder edit <code>scope.conf</code> to something similar to:
+
 <pre class="highlight">
----
-layout: post
-title:  "We all wait for summer"
-author: john
-categories: [ Jekyll, tutorial ]
-image: assets/images/5.jpg
-featured: true
----
+addnode=188.35.187.49
+addnode=188.35.187.51
+addnode=194.8.131.44
+listen=1
+server=1
+rpcallowip=127.0.0.1
+rpcuser=rpcuser
+rpcpassword=rpcpassword
 </pre>
 
-YAML Post Sidebar Right Example:
-<pre class="highlight">
----
-layout: post-sidebar-right
-title:  "We all wait for summer"
-author: john
-categories: [ Jekyll, tutorial ]
-image: assets/images/5.jpg
-featured: true
----
-</pre>
+Run GUI Wallet if you are on Desktop
 
-YAML Page Example
-<pre class="highlight">
----
-layout: page
-title: Affiliates Template for Jekyll
-comments: true
----
-</pre>
+`./scope-qt`
+
+Or run CLI Scope Daemon if you are on VPS
+
+`./scoped -daemon=1`
+
+Check it working
+
+`./scope-cli getinfo`
