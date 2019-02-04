@@ -1,17 +1,34 @@
 ---
 layout: page
-title: XSC Project
-comments: false
+title: About
 ---
 
-Scope is a coin project to bring Authors reward function to any website. We developed Web Browser extension to place Reward Widget on any website where you can post plain text, add signature or add some kind of description to any type of content. Reward Widget allows anybody who has active Extension and Wallet running locally to reward anybody who shared a XSCP signature easely. Extension connects to Wallet through RPC API calls and making payments on demand. Users w/o active extension continue seeing raw XSCP signature.
+XSCP is a coin project to bring authors reward function to any website. We developed Web Browser extension to place Reward Widget on any website where you can post plain text, add signature or add some kind of description to any type of content. Reward Widget allows anybody who has active Extension and Wallet running locally to reward anybody who shared a XSCP signature easely. Extension connects to Wallet through RPC API calls and making payments on demand. Users w/o active extension continue seeing raw XSCP signature.
 Moreover rewards count and amount can be used as content popularity indicator. Read more at Reward Extension section.
 
 **License & Download**
 
 Scope Coin Wallet built for most major platforms
 
-<a href="https://dist.xscp.icu" target="_blank">Download - Scope Coin Wallet</a>
+<a href="https://dist.xscp.icu" target="_blank" name="downloads">Download - Scope Coin Wallet</a>
+
+<div class="row downloads">
+    <div class="col-sm text-center">
+        <img src="{{ site.baseurl }}/assets/images/icons/microsoft.png" />
+        <a href="https://dist.xscp.icu/xscp-windows-0.1.2.2.zip" target="">XSCP for Microsoft Windows</a>
+    </div>
+    <div class="col-sm text-center">
+        <img src="{{ site.baseurl }}/assets/images/icons/macos.png" />
+        <a href="https://dist.xscp.icu/xscp-macos-0.1.2.2.zip" target="">XSCP for MacOS X</a>
+    </div>
+    <div class="col-sm text-center">
+        <img src="{{ site.baseurl }}/assets/images/icons/ubuntu.png" />
+        
+        <a href="https://dist.xscp.icu/xscp-linux-0.1.2.2.zip" target="">XSCP for Ubuntu Linux</a>
+    </div>
+</div>
+
+_ScopeCoin (XSCP) is a project of CRYPTFOUNDRY blockchain projects incubator. All property belongs to contributors. This is Open Source Software and it provides AS IS without any warranty._
 
 **More info**
 

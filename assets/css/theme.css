@@ -639,6 +639,25 @@ a.btn {color:#fff;}
 	text-transform:uppercase;
 }
 
+.row.downloads {
+    margin: 0 0 16px 0;
+}
+
+.row.downloads img {
+    display: inline-block;
+    max-width: 25%;
+    box-shadow: none;
+}
+
+img.no-shadow {
+    box-shadow: none;
+}
+
+.row.downloads a {
+    margin: 0 0 0 16px;
+    display: inline;
+}
+
 .post-top-meta .btn.follow {
 	margin-left:5px;
 	margin-top:-4px;

@@ -1,5 +1,5 @@
 # Site
-name: ScopeCoin Project
+name: XSCP
 description: Any content blockchain based reward platform
 meta_description: "Any content blockchain based reward platform."
 logo: 'assets/images/logo.png'
@@ -53,3 +53,5 @@ jekyll-archives:
 # Other
 markdown: kramdown
 highlighter: rouge
+
+permalink: /:title:output_ext
